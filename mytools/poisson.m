@@ -1,0 +1,5 @@
+function possi = poisson(lambda,times)
+%≤¥À…∑÷≤º∏≈¬ 
+possi = (lambda^times)*exp(-lambda)/factorial(times);
+end
+
